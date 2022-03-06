@@ -1,6 +1,8 @@
-package org.acme;
+package org.acme.adapter.controller;
 
 import java.util.List;
+import org.acme.VehicleService;
+import org.acme.Vehicle;
 
 public class VehicleController {
 

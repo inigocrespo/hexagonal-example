@@ -2,17 +2,13 @@ package org.acme;
 
 import java.util.List;
 
-public class ProfileRepository {
+// Output port
+public interface ProfileRepository {
 
-    public Profile findOne(String id) {
-        return null;
-    }
+    Profile findOne(String id);
 
-    public List<Profile> findAll() {
-        return null;
-    }
+    List<Profile> findAll();
 
-    public void save(Profile profile) {
+    void save(Profile profile);
 
-    }
 }

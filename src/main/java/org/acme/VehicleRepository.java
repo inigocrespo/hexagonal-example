@@ -2,17 +2,12 @@ package org.acme;
 
 import java.util.List;
 
-public class VehicleRepository {
+// Output port
+public interface VehicleRepository {
 
-    public Vehicle findOne(String id) {
-        return null;
-    }
+    Vehicle findOne(String id);
 
-    public List<Vehicle> findAll() {
-        return null;
-    }
+    List<Vehicle> findAll();
 
-    public void save(Vehicle vehicle) {
-
-    }
+    void save(Vehicle vehicle);
 }
