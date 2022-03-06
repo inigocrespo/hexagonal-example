@@ -1,0 +1,23 @@
+By functionality
+
+git checkout a1a1778c25cfa6a4fece53f2785cca41ca6dbe8c
+
+
+Screaming
+
+git checkout 83799c87fc69ab2f42ee4c422e1e08aa12a18509
+
+
+Adapters
+
+git checkout 4a88671da0e15466b17e6072550f820f9640bf5a
+
+
+Flattened
+
+git checkout  9cc020367eca7d2bf0fb57faba1aa3e1da3cacdc
+
+
+MVC
+
+git checkout cf9df0db13c8b4aed98e656a42465d3d261d8402
