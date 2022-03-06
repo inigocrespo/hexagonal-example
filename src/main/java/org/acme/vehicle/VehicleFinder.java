@@ -1,11 +1,11 @@
-package org.acme;
+package org.acme.vehicle;
 
 import java.util.List;
 
 // Input port
 public interface VehicleFinder {
 
-    Vehicle find0ne(String id);
+    Vehicle findOne(String id);
 
     List<Vehicle> findAll();
 }

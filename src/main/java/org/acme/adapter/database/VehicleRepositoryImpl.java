@@ -1,8 +1,8 @@
 package org.acme.adapter.database;
 
 import java.util.List;
-import org.acme.Vehicle;
-import org.acme.VehicleRepository;
+import org.acme.vehicle.Vehicle;
+import org.acme.vehicle.VehicleRepository;
 
 public class VehicleRepositoryImpl implements VehicleRepository {
 

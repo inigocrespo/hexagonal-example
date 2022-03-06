@@ -1,17 +1,17 @@
-package org.acme.impl;
+package org.acme.vehicle.impl;
 
 import java.util.List;
-import org.acme.Vehicle;
-import org.acme.VehicleFinder;
-import org.acme.VehicleRepository;
-import org.acme.VehicleUpdater;
+import org.acme.vehicle.Vehicle;
+import org.acme.vehicle.VehicleFinder;
+import org.acme.vehicle.VehicleRepository;
+import org.acme.vehicle.VehicleUpdater;
 
 public class VehicleServiceImpl implements VehicleFinder, VehicleUpdater {
 
     VehicleRepository vehicleRepository;
 
     @Override
-    public Vehicle find0ne(String id) {
+    public Vehicle findOne(String id) {
         return vehicleRepository.findOne(id);
     }
 
@@ -24,5 +24,4 @@ public class VehicleServiceImpl implements VehicleFinder, VehicleUpdater {
     public void save(Vehicle vehicle) {
         vehicleRepository.save(vehicle);
     }
-
 }

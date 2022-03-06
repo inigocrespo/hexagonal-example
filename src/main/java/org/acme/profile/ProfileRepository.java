@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.profile;
 
 import java.util.List;
 
@@ -10,5 +10,4 @@ public interface ProfileRepository {
     List<Profile> findAll();
 
     void save(Profile profile);
-
 }

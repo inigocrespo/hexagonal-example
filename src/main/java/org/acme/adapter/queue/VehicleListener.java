@@ -1,7 +1,7 @@
 package org.acme.adapter.queue;
 
-import org.acme.Vehicle;
-import org.acme.VehicleUpdater;
+import org.acme.vehicle.Vehicle;
+import org.acme.vehicle.VehicleUpdater;
 
 public class VehicleListener {
 

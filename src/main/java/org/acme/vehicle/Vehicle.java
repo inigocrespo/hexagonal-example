@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.vehicle;
 
 public class Vehicle {
 

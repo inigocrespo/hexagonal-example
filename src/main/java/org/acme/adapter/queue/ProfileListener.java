@@ -1,7 +1,7 @@
 package org.acme.adapter.queue;
 
-import org.acme.Profile;
-import org.acme.ProfileUpdater;
+import org.acme.profile.Profile;
+import org.acme.profile.ProfileUpdater;
 
 public class ProfileListener {
 

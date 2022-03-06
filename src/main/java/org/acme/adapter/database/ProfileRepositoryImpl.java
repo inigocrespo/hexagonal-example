@@ -1,8 +1,9 @@
 package org.acme.adapter.database;
 
+
 import java.util.List;
-import org.acme.Profile;
-import org.acme.ProfileRepository;
+import org.acme.profile.Profile;
+import org.acme.profile.ProfileRepository;
 
 public class ProfileRepositoryImpl implements ProfileRepository {
 

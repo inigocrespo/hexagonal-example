@@ -1,10 +1,11 @@
-package org.acme;
+package org.acme.profile;
 
 import java.util.List;
 
+// Input port
 public interface ProfileFinder {
 
-    Profile find0ne(String id);
+    Profile findOne(String id);
 
     List<Profile> findAll();
 }
