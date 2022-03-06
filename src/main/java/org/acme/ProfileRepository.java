@@ -1,7 +1,6 @@
-package org.acme.repository;
+package org.acme;
 
 import java.util.List;
-import org.acme.model.Profile;
 
 public class ProfileRepository {
 

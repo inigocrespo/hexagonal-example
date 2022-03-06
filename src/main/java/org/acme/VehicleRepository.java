@@ -1,8 +1,6 @@
-package org.acme.repository;
+package org.acme;
 
 import java.util.List;
-import org.acme.model.Profile;
-import org.acme.model.Vehicle;
 
 public class VehicleRepository {
 

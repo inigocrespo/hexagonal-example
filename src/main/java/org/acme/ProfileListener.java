@@ -1,7 +1,4 @@
-package org.acme.listener;
-
-import org.acme.model.Profile;
-import org.acme.service.ProfileService;
+package org.acme;
 
 public class ProfileListener {
 

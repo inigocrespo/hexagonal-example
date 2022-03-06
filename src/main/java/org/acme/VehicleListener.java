@@ -1,7 +1,4 @@
-package org.acme.listener;
-
-import org.acme.model.Vehicle;
-import org.acme.service.VehicleService;
+package org.acme;
 
 public class VehicleListener {
 

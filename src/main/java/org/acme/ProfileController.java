@@ -1,8 +1,6 @@
-package org.acme.controller;
+package org.acme;
 
 import java.util.List;
-import org.acme.model.Profile;
-import org.acme.service.ProfileService;
 
 public class ProfileController {
 
