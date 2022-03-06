@@ -1,19 +1,19 @@
 package org.acme.adapter.controller;
 
 import java.util.List;
-import org.acme.VehicleService;
 import org.acme.Vehicle;
+import org.acme.VehicleFinder;
 
 public class VehicleController {
 
-    VehicleService vehicleService;
+    VehicleFinder vehicleFinder;
 
     Vehicle findOne(String id) {
-        return vehicleService.find0ne(id);
+        return vehicleFinder.find0ne(id);
     }
 
     List<Vehicle> findAll() {
-        return vehicleService.findAll();
+        return vehicleFinder.findAll();
     }
 
 }

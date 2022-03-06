@@ -1,14 +1,14 @@
 package org.acme.adapter.queue;
 
 import org.acme.Profile;
-import org.acme.ProfileService;
+import org.acme.ProfileUpdater;
 
 public class ProfileListener {
 
-    ProfileService profileService;
+    ProfileUpdater profileUpdater;
 
     void listen(Profile profile) {
-        profileService.save(profile);
+        profileUpdater.save(profile);
     }
 
 }

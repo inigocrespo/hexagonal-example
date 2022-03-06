@@ -1,14 +1,14 @@
 package org.acme.adapter.queue;
 
 import org.acme.Vehicle;
-import org.acme.VehicleService;
+import org.acme.VehicleUpdater;
 
 public class VehicleListener {
 
-    VehicleService vehicleService;
+    VehicleUpdater vehicleUpdater;
 
     void listen(Vehicle vehicle) {
-        vehicleService.save(vehicle);
+        vehicleUpdater.save(vehicle);
     }
 
 }
