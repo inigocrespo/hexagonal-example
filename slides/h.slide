@@ -1,0 +1,64 @@
+
+# Hexagonal Architecture
+14th March 2022
+
+Iñigo Crespo Soria 
+Software Developer 
+ThoughtWorks
+inigo.cresposoria@thoughtworks.com
+
+## Hexagonal Architecture
+
+* Ports and Adapters Architecture
+* Hexagonal Architecture
+* Onion Architecture
+* Clean Architecture
+
+.image otters.jpeg
+
+## Ports and Adapters
+
+.image ports_and_adapters.jpeg
+
+## Rules
+
+* Adapters can know about the business 
+* Business can't know about adapters
+* Different adapters should not know about each other 
+
+.image thumbs_up.png
+
+## Hands on
+
+.image otter_exercise.jpg
+
+## Pluggable adapters
+
+Every adapter should be easily added or removed
+
+.image pluggable.png
+
+## Testable business rules
+
+All the business rules should be easily unit tested
+
+.image unit_test.jpeg
+
+## Clean Architecture
+
+* Screaming architecture
+* Hiding details
+
+.image clean_architecture.jpeg
+
+## Last advice
+
+* Don't get crazy
+
+* The more flexible an architecture is the longer it takes to develop anything.
+
+* KIS
+
+* YAGNI
+
+.image otter.jpeg
